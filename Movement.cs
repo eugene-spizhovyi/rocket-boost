@@ -19,8 +19,15 @@ public class Movement : MonoBehaviour
         thrust.Enable();
         rotation.Enable();
     }
-    
+
     private void FixedUpdate()
+    {
+        NewMethod();
+    }
+
+
+
+    private void NewMethod()
     {
         if (thrust.IsPressed())
         {
